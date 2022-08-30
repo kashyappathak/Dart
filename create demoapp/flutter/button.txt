@@ -1,0 +1,63 @@
+bocy: Column( children:
+
+Text (basic. Prognam ),
+
+Text Field(
+onChangcd: (text)
+
+print (text);
+_
+updateContent (text);
+
+}, 
+},
+//TextField
+
+Text (mytxt),
+
+ElevatedButton(
+
+      onPressed: ()
+
+      _showContent ();
+
+     Print ("Button Clicked")
+;
+   },  
+  child: Text ("Submit")) // ElevatedBum
+7
+1),
+},
+Scaffold // MaterialApp 
+_
+update Content (String text)
+
+
+setState((){
+_
+temptxt=text;
+});
+}
+
+_showContent ()
+{
+    var myvalue int.parse_temptxt) ;
+     
+if (myvalue % 4 ==0){
+
+         setState(
+        _m
+ytxt= "Leap Year"
+
+))
+else
+{
+
+setState(()
+
+
+    _mytxt="Not a Leap Year"
+
+});
+};
+};
