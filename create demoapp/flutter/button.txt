@@ -1,13 +1,12 @@
-bocy: Column( children:
+body: Column( children:
 
-Text (basic. Prognam ),
+Text (basic. Program ),
 
 Text Field(
 onChangcd: (text)
 
 print (text);
-_
-updateContent (text);
+_updateContent (text);
 
 }, 
 },
@@ -46,8 +45,8 @@ _showContent ()
 if (myvalue % 4 ==0){
 
          setState(
-        _m
-ytxt= "Leap Year"
+        
+_mytxt= "Leap Year"
 
 ))
 else
